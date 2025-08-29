@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mc website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">MkgCapital</div>
+        <nav class="nav">
+            <a href="index.html" class="active">Beranda</a>
+            <a href="layanan.html">Layanan</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="tentang_kami.html">Tentang Kami</a>
+            <a href="edukasi.html">Edukasi</a>
+            <a href="kuis.html">Kuis</a>
+        </nav>
+        <div class="header-buttons">
+            <a href="#" class="btn btn-primary show-register">Mulai Sekarang</a>
+            <a href="#" class="btn btn-secondary show-login">Masuk</a>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h1>Mari Bergabung dengan MkgCapital</h1>
+            <p>
+                Tempatnya para trader profesional berkumpul, berbagi wawasan, dan meraih kesuksesan bersama di pasar keuangan. Kami menyediakan alat dan pengetahuan untuk Anda.
+            </p>
+            <a href="#" class="btn btn-action show-register">Gabung Sekarang</a>
+        </div>
+        <div class="hero-image">
+            <img src="e40306c8-13fa-4e54-bed2-d2143e37e03f.jpg" alt="Grafis abstrak 3D representasi data pasar" class="graphic-placeholder">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 MkgCapital. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+    
+    <div id="login-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2>Masuk</h2>
+            <form>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Kata Sandi" required>
+                <button type="submit" class="btn btn-primary">Masuk</button>
+            </form>
+            <p>Belum punya akun? <a href="#" class="show-register-link">Daftar sekarang</a></p>
+        </div>
+    </div>
+
+    <div id="register-popup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2>Daftar Akun Baru</h2>
+            <form>
+                <input type="text" placeholder="Nama Lengkap" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Kata Sandi" required>
+                <button type="submit" class="btn btn-primary">Daftar</button>
+            </form>
+            <p>Sudah punya akun? <a href="#" class="show-login-link">Masuk</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

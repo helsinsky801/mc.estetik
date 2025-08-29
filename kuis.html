@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Trading - Mkg Capital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">MkgCapital</div>
+        <nav class="nav">
+            <a href="index.html">Beranda</a>
+            <a href="layanan.html">Layanan</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="tentang_kami.html">Tentang Kami</a>
+            <a href="edukasi.html">Edukasi</a>
+            <a href="kuis.html" class="active">Kuis</a>
+        </nav>
+        <div class="header-buttons">
+            <a href="#" class="btn btn-primary show-register">Mulai Sekarang</a>
+            <a href="#" class="btn btn-secondary show-login">Masuk</a>
+        </div>
+        <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+    </header>
+
+    <main class="content-section">
+        <div class="container">
+            <h1>Tes Pengetahuan Trading Anda!</h1>
+            <p>Jawab pertanyaan di bawah ini untuk menguji pemahaman Anda tentang pasar keuangan.</p>
+
+            <div id="quiz-container">
+                <div class="quiz-question">
+                    <p>1. Apa yang dimaksud dengan "bullish" dalam pasar saham?</p>
+                    <div class="quiz-options">
+                        <label><input type="radio" name="q1" value="a"> A. Pasar sedang mengalami tren turun.</label>
+                        <label><input type="radio" name="q1" value="b"> B. Pasar sedang mengalami tren naik.</label>
+                        <label><input type="radio" name="q1" value="c"> C. Pasar sedang bergerak sideways.</label>
+                    </div>
+                </div>
+
+                <div class="quiz-question">
+                    <p>2. Singkatan "SL" dalam trading merujuk pada apa?</p>
+                    <div class="quiz-options">
+                        <label><input type="radio" name="q2" value="a"> A. Stop Loss</label>
+                        <label><input type="radio" name="q2" value="b"> B. Support Line</label>
+                        <label><input type="radio" name="q2" value="c"> C. Selling Limit</label>
+                    </div>
+                </div>
+
+                <div class="quiz-question">
+                    <p>3. Mata uang kripto apa yang paling terkenal saat ini?</p>
+                    <div class="quiz-options">
+                        <label><input type="radio" name="q3" value="a"> A. Litecoin</label>
+                        <label><input type="radio" name="q3" value="b"> B. Ripple</label>
+                        <label><input type="radio" name="q3" value="c"> C. Bitcoin</label>
+                    </div>
+                </div>
+
+                 <div class="quiz-question">
+                    <p>4. di zona fibbonacci berapa yang merupakan golden zone?</p>
+                    <div class="quiz-options">
+                        <label><input type="radio" name="q3" value="a"> A. 61,8</label>
+                        <label><input type="radio" name="q3" value="b"> B. 1,0</label>
+                        <label><input type="radio" name="q3" value="c"> C. om sigit tamok paret</label>
+                    </div>
+                </div>
+
+                <button id="submit-quiz" class="btn btn-action">Kirim Jawaban</button>
+                <div id="quiz-result"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 MkgCapital. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
